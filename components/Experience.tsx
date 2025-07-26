@@ -50,7 +50,7 @@ const Experience = () => {
     {
       title: "Frontend Developer",
       company: "rentalmobilmalang_zdr_trans",
-      period: "January 2025",
+      period: "JAN 2025",
       location: "Malang, Indonesia",
       description: [
         "Developed the complete UI for a car rental company profile website.",

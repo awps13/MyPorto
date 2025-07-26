@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Github, Linkedin, Mail, Heart } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:john.doe@example.com', label: 'Email' },
+    { icon: Github, href: "https://github.com/awps13", label: "GitHub" },
+    { icon: Linkedin, href: "https://linked.in/awps13", label: "LinkedIn" },
+    { icon: Mail, href: "https://mail.google.com/mail/?view=cm&to=ahmadwildanputro13@gmail.com", label: "Email" },
   ];
 
   return (
@@ -22,7 +22,9 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h3 className="text-2xl font-bold mb-2">John Doe</h3>
+            <h3 className="text-2xl font-bold mb-2">
+              Ahmad Wildan Putro Santoso
+            </h3>
             <p className="text-gray-400">Full Stack Developer</p>
           </motion.div>
 
@@ -37,6 +39,8 @@ const Footer = () => {
                 key={index}
                 href={link.href}
                 whileHover={{ scale: 1.2, y: -2 }}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
                 aria-label={link.label}
               >
@@ -52,9 +56,9 @@ const Footer = () => {
             className="text-center text-gray-400"
           >
             <p className="flex items-center justify-center space-x-1">
-              <span>&copy; {currentYear} John Doe. Made with</span>
-              <Heart size={16} className="text-red-500 fill-current" />
-              <span>using Next.js & Framer Motion</span>
+              <span>&copy; {currentYear} Ahmad Wildan Putro Santoso. Made with</span>
+              
+              <span>using Next.js, Framer Motion & Tailwind CSS</span>
             </p>
           </motion.div>
         </div>

@@ -5,6 +5,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { GraduationCap, Calendar, MapPin } from "lucide-react";
+import { link } from "node:fs";
 
 const Education = () => {
   const ref = useRef(null);
@@ -43,45 +44,46 @@ const Education = () => {
 
   const certifications = [
     {
-      name: "Innovations, Developments, Explorations and Applications in Techno-Science Festival (IDEA-Fest) 2024",
-      issuer: "State University of Malang",
+      name: "Coding Camp 2024 powered by DBS Foundation",
+      issuer: "Dicoding Indonesia",
       year: "2024",
-      link: "https://simawa.um.ac.id/kegiatan-ekskul/download/eyJpdiI6IjY2UmN5MW1EZEE0RDJ1NGRlVTZqRFE9PSIsInZhbHVlIjoiYzFSaW05cHkyb2x5S3Baajc2VDRNOWRjbWttZGdTRE9ZUHhcLzRCWUZNTnV4bHhsTVN3XC82cFYwS0g4S3E5b3c0U1R0c2FxTTBxbDd0dDRrSnZCMXZ5dz09IiwibWFjIjoiNWIxNTMyODdlNzdjYzI3ZDdhNzZjNzUyMTQ4OTY1N2UzOTUyNWZjNDY4ZWQwYzNlYzNiNmJkNzgxMjFiZWYyZCJ9/vw/1",
+      link: "https://drive.google.com/file/d/1uHJVcJcGp8eSUP9QOflEpyBUEPxfYKsF/view?usp=sharing",
     },
     {
       name: "Cisco Academy International IT Essentials Certification",
       issuer: "State University of Malang",
       year: "2025",
-    },
-    {
-      name: "Coding Camp 2024 powered by DBS Foundation",
-      issuer: "Dicoding Indonesia",
-      year: "2024",
-    },
-    {
-      name: "Enhancing Character Building to be a Great Leader",
-      issuer: "State University of Malang",
-      year: "2023",
+      link: "https://drive.google.com/file/d/1rH7HpZa7Wkt-DDUKNmkKb3bOnSv3JRPr/view?usp=sharing",
     },
     {
       name: "Electrical Engineering and Informatics Student Creativity Festival (FESMARO) 2025",
       issuer: "State University of Malang",
       year: "2025",
+      link: "https://drive.google.com/file/d/1iaLCoZu0RyLeWhBCwPeSHhi-FT7smBqg/view?usp=sharing",
+    },
+    {
+      name: "Innovations, Developments, Explorations and Applications in Techno-Science Festival (IDEA-Fest) 2024",
+      issuer: "State University of Malang",
+      year: "2024",
+      link: "https://drive.google.com/file/d/1iimwzW3Q65Pi0waQ7V8yHJwwWGubh3qs/view?usp=sharing",
     },
     {
       name: "Capstone Project Competition",
       issuer: "State University of Malang",
       year: "2025",
-    },
-    {
-      name: "AI Beyond Code Workshop: Building Smart Solutions for the Real World",
-      issuer: "State University of Malang",
-      year: "2025",
+      link: "https://drive.google.com/file/d/1wfJoavxLsmCG9A8R4eBIvGQMChDhDc1d/view?usp=sharing",
     },
     {
       name: "UI UX DESIGN COMPETITION",
       issuer: "Institute ASIA",
       year: "2025",
+      link: "https://drive.google.com/file/d/18KqF8HJZSMk-EsF9aWY98soSrn8ovzyG/view?usp=sharing",
+    },
+    {
+      name: "AI Beyond Code Workshop: Building Smart Solutions for the Real World",
+      issuer: "State University of Malang",
+      year: "2025",
+      link: "https://drive.google.com/file/d/1lJrUpqRiM8vReroHgcWPWOqNl6lsz2EP/view?usp=sharing",
     },
   ];
 
