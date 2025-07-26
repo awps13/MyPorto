@@ -38,7 +38,7 @@ const Projects = () => {
     {
       title: "GreenTech",
       description:
-        "Sebuah tampilan platform (frontend) yang digunakan untuk memonitoring status tanaman",
+        "A platform display (frontend) used to monitor plant status",
       image:
         "/monitoring.png",
       technologies: [
@@ -54,7 +54,7 @@ const Projects = () => {
     {
       title: "GPT Scraper",
       description:
-        "Sebuah platform full stack untuk scraping data chat dari ChatGPT yang bisa digunakan untuk proses preprocessing ",
+        "A full stack platform for scraping chat data from ChatGPT that can be used for preprocessing.",
       image:
         "/gptsniffer.png",
       technologies: [
@@ -66,7 +66,7 @@ const Projects = () => {
     {
       title: "Disease Spread Use Python",
       description:
-        "Simulasi penyebaran penyakit menggunakan visualisasi 3D sebagai penilaian mata kuliah visualisasi grafika",
+        "Simulation of disease spread using 3D visualization as an assessment for the graphic visualization course",
       image:
         "/disease.png",
       technologies: [

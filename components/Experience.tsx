@@ -49,7 +49,7 @@ const Experience = () => {
     },
     {
       title: "Frontend Developer",
-      company: "rentalmobilmalang_zdr_trans",
+      company: "ZDR_TRANS",
       period: "JAN 2025",
       location: "Malang, Indonesia",
       description: [
