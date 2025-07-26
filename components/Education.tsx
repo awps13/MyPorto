@@ -17,11 +17,12 @@ const Education = () => {
       period: "2013 - Now",
       location: "Malang, Indonesia",
       gpa: "3.8/4.0",
-      description: 'Specialized in Software Engineering and Machine Learning.',
+      description: "Specialized in Software Engineering and Machine Learning.",
       achievements: [
         "Awarded 2 copyrights officially registered by the government",
         "Developed a professional website for a car rental business owner",
-        "Built an IoT system to monitor room temperature", "Won 2 national-level competitions"
+        "Built an IoT system to monitor room temperature",
+        "Won 2 national-level competitions",
       ],
     },
     {
@@ -45,6 +46,7 @@ const Education = () => {
       name: "Innovations, Developments, Explorations and Applications in Techno-Science Festival (IDEA-Fest) 2024",
       issuer: "State University of Malang",
       year: "2024",
+      link: "https://simawa.um.ac.id/kegiatan-ekskul/download/eyJpdiI6IjY2UmN5MW1EZEE0RDJ1NGRlVTZqRFE9PSIsInZhbHVlIjoiYzFSaW05cHkyb2x5S3Baajc2VDRNOWRjbWttZGdTRE9ZUHhcLzRCWUZNTnV4bHhsTVN3XC82cFYwS0g4S3E5b3c0U1R0c2FxTTBxbDd0dDRrSnZCMXZ5dz09IiwibWFjIjoiNWIxNTMyODdlNzdjYzI3ZDdhNzZjNzUyMTQ4OTY1N2UzOTUyNWZjNDY4ZWQwYzNlYzNiNmJkNzgxMjFiZWYyZCJ9/vw/1",
     },
     {
       name: "Cisco Academy International IT Essentials Certification",
@@ -55,6 +57,31 @@ const Education = () => {
       name: "Coding Camp 2024 powered by DBS Foundation",
       issuer: "Dicoding Indonesia",
       year: "2024",
+    },
+    {
+      name: "Enhancing Character Building to be a Great Leader",
+      issuer: "State University of Malang",
+      year: "2023",
+    },
+    {
+      name: "Electrical Engineering and Informatics Student Creativity Festival (FESMARO) 2025",
+      issuer: "State University of Malang",
+      year: "2025",
+    },
+    {
+      name: "Capstone Project Competition",
+      issuer: "State University of Malang",
+      year: "2025",
+    },
+    {
+      name: "AI Beyond Code Workshop: Building Smart Solutions for the Real World",
+      issuer: "State University of Malang",
+      year: "2025",
+    },
+    {
+      name: "UI UX DESIGN COMPETITION",
+      issuer: "Institute ASIA",
+      year: "2025",
     },
   ];
 
@@ -162,6 +189,16 @@ const Education = () => {
                       <p className="text-blue-600 font-medium text-sm">
                         {cert.year}
                       </p>
+                      {cert.link && (
+                        <a
+                          href={cert.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block mt-2 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700 transition"
+                        >
+                          View Certificate
+                        </a>
+                      )}
                     </CardContent>
                   </Card>
                 ))}
