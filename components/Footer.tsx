@@ -55,10 +55,10 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-center text-gray-400"
           >
-            <p className="flex items-center justify-center space-x-1">
-              <span>&copy; {currentYear} Ahmad Wildan Putro Santoso. Made with</span>
-              
-              <span>using Next.js, Framer Motion & Tailwind CSS</span>
+            <p className="items-center justify-center space-x-1">
+              <span>&copy; {currentYear} Ahmad Wildan Putro Santoso.</span>
+              <br />
+              <span>Made with using Next.js, Framer Motion & Tailwind CSS</span>
             </p>
           </motion.div>
         </div>
