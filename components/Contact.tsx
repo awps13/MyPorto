@@ -106,12 +106,7 @@ const Contact = () => {
               <motion.a
                 key={index}
                 href={info.link}
-                initial={{ opacity: 0, y: 20 }}
-                animate={
-                  isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
-                }
-                transition={{ duration: 0.6, delay: 0.4 + index * 0.1 }}
-                whileHover={{ scale: 1.02 }}
+                
                 className="flex items-center space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100"
               >
                 <div className="bg-blue-100 p-3 rounded-full">
@@ -127,9 +122,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            
             className="lg:col-span-2"
           >
             <Card>
