@@ -120,18 +120,19 @@ const Hero = () => {
             <Mail size={24} />
           </motion.a>
         </motion.div>
-
-        <motion.div
-          variants={itemVariants}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-        >
+        <div className="w-full items-center text-center flex justify-center">
           <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
+            variants={itemVariants}
+            className="absolute bottom-8 transform -translate-x-1/2"
           >
-            <ChevronDown className="text-gray-400" size={24} />
+            <motion.div
+              animate={{ y: [0, 10, 0] }}
+              transition={{ duration: 2, repeat: Infinity }}
+            >
+              <ChevronDown className="text-gray-400" size={24} />
+            </motion.div>
           </motion.div>
-        </motion.div>
+        </div>
       </motion.div>
     </section>
   );
