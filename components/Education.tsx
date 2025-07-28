@@ -15,7 +15,7 @@ const Education = () => {
     {
       degree: "Bachelor of Informatics Engineering",
       school: "State University of Malang",
-      period: "2013 - Now",
+      period: "2023 - Now",
       location: "Malang, Indonesia",
       gpa: "3.8/4.0",
       description: "Specialized in Software Engineering and Machine Learning.",
